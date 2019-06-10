@@ -5,14 +5,12 @@
     "name": "NoviCap Voucher",
     "price": "5.00",
     "currency": "$",
-    "onkeys" : "j"
     },
     {
     "code": "TSHIRT",
     "name": "NoviCap T-Shirt",
     "price": "20.00",
     "currency": "$",
-    "onkeys" : "l",
     "onQty" : "3",
     "discount": "1"
     },
@@ -21,7 +19,6 @@
     "name": "NoviCap Coffee Mug",
     "price": "7.50",
     "currency" : "$",
-    "onkeys" : "k",
     "onQty" : "2",
     "discount" : "1/2"
     }]

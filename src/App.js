@@ -75,7 +75,7 @@ total(){
     }
     else if (this.state.items[i].code === l) {
       tee +=1;
-      if (tee>=3) {
+      if (tee>= this.state.items[i].onQty ) {
      teePrice  = (this.state.items[i].price * tee ) - tee
       }
       else {
