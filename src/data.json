@@ -1,0 +1,21 @@
+{
+  "currency": "$",
+  "products": [{
+    "code": "VOUCHER",
+    "name": "NoviCap Voucher",
+    "price": "5.00",
+    "currency": "$"
+    },
+    {
+    "code": "TSHIRT",
+    "name": "NoviCap T-Shirt",
+    "price": "20.00",
+    "currency": "$"
+    },
+    {
+    "code": "MUG",
+    "name": "NoviCap Coffee Mug",
+    "price": "7.50",
+    "currency" : "$"
+    }]
+}
