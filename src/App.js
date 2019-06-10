@@ -75,7 +75,7 @@ total(){
     }
     else if (this.state.items[i].code === l) {
       tee +=1;
-      if (tee>= this.state.items[i].onQty ) {
+      if (tee>=3) {
      teePrice  = (this.state.items[i].price * tee ) - tee
       }
       else {
@@ -101,19 +101,19 @@ remove(item){
 handleclick(e){
  for (var i = 0; i < DataJSON.products.length; i++) {
 
-if (DataJSON.products[i].code === j ) {
+if (e.key === "j" && DataJSON.products[i].code === j ) {
   let arr = this.state.items;
   arr.push(DataJSON.products[i]);
   this.setState({items: arr});
   break;
 }
-else if (DataJSON.products[i].code === l ) {
+else if (e.key === "l" && DataJSON.products[i].code === l ) {
   let arr = this.state.items;
   arr.push(DataJSON.products[i]);
   this.setState({items: arr});
   break;
 }
-else if (DataJSON.products[i].code === k ) {
+else if (e.key === "k" && DataJSON.products[i].code === k ) {
   let arr = this.state.items;
   arr.push(DataJSON.products[i]);
   this.setState({items: arr});

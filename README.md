@@ -25,3 +25,5 @@ If it matches, it will be added in the list. If not it will not.
 The logic for discounts on Tshirt is that whenever the count of Tshirts is more than 3, it would remove $1 from each which is total sum of all minus total number of Tshirts.
 
 The logic for discounts on Voucher is that whenever count of voucher is multiple of Two, the discount would be 50% i.e Sum divided by two. else if it is not the number of voucher would be incremented by one and divided by two automatically.
+
+For the Test Purpose if you would like to add more product you can add in Json, but since we are not getting any response from the, we will have to assign a value in a constant variable and match.
