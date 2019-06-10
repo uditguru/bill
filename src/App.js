@@ -105,19 +105,16 @@ if (e.key === "j" && DataJSON.products[i].code === j ) {
   let arr = this.state.items;
   arr.push(DataJSON.products[i]);
   this.setState({items: arr});
-  break;
 }
 else if (e.key === "l" && DataJSON.products[i].code === l ) {
   let arr = this.state.items;
   arr.push(DataJSON.products[i]);
   this.setState({items: arr});
-  break;
 }
 else if (e.key === "k" && DataJSON.products[i].code === k ) {
   let arr = this.state.items;
   arr.push(DataJSON.products[i]);
   this.setState({items: arr});
-  break;
 }
 else{
   console.log("Product Not Match");
